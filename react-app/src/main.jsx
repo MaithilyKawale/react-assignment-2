@@ -1,5 +1,4 @@
 import { createRoot } from 'react-dom/client';
-import React from 'react';
 import About from './components/About.jsx';
 import Contact from './components/Contact.jsx';
 import Home from './components/Home.jsx';
@@ -35,8 +34,8 @@ function App() {
     <>
       <h1 style={headingStyle}>Welcome to My App</h1>
       <nav style={navStyle}>
-        <a href="/">Home</a> |{' '}
-        <a href="/about">About</a> |{' '}
+        <a href="/">Home</a> |
+        <a href="/about">About</a> |
         <a href="/contact">Contact</a>
       </nav>
       <hr />
